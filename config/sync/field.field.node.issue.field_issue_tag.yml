@@ -1,0 +1,21 @@
+uuid: 67ebaa5d-2670-4bbc-8538-db53e650882b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_issue_tag
+    - node.type.issue
+id: node.issue.field_issue_tag
+field_name: field_issue_tag
+entity_type: node
+bundle: issue
+label: issue_tag
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings: {  }
+field_type: entity_reference

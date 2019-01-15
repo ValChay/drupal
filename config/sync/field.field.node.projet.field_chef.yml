@@ -1,0 +1,29 @@
+uuid: 310b2d5c-ff9b-4acf-8e04-29b899c132d9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_chef
+    - node.type.projet
+id: node.projet.field_chef
+field_name: field_chef
+entity_type: node
+bundle: projet
+label: chef
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:user'
+  handler_settings:
+    include_anonymous: false
+    filter:
+      type: _none
+    target_bundles: null
+    sort:
+      field: access
+      direction: DESC
+    auto_create: false
+field_type: entity_reference

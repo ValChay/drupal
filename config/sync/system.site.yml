@@ -1,0 +1,14 @@
+uuid: 896811fd-6114-4ce5-a3c4-9c749d936fb2
+name: 'Le site trop cool'
+mail: valentin.chaillon@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: fr
+default_langcode: fr
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

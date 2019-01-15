@@ -1,0 +1,44 @@
+uuid: c5f762fc-70e6-4231-af39-c85a32e3d3ea
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.issue.body
+    - field.field.node.issue.field_capture
+    - field.field.node.issue.field_chef
+    - field.field.node.issue.field_date_de_declarations
+    - node.type.issue
+  module:
+    - text
+    - user
+id: node.issue.teaser
+targetEntityType: node
+bundle: issue
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 2
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_chef:
+    type: entity_reference_label
+    weight: 1
+    region: content
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_capture: true
+  field_date_de_declarations: true
+  langcode: true

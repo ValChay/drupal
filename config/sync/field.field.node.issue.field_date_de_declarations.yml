@@ -1,0 +1,19 @@
+uuid: 1987eb57-03de-4dbe-9f74-76ba51d7fd09
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_date_de_declarations
+    - node.type.issue
+id: node.issue.field_date_de_declarations
+field_name: field_date_de_declarations
+entity_type: node
+bundle: issue
+label: 'Date de déclarations'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

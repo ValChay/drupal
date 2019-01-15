@@ -1,0 +1,31 @@
+uuid: 46b4a364-2b70-4e9e-be9c-502d64b4d623
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b24fc440-678e-46b8-b44c-daaac5f5a069'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: monblocperso
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:b24fc440-678e-46b8-b44c-daaac5f5a069'
+settings:
+  id: 'block_content:b24fc440-678e-46b8-b44c-daaac5f5a069'
+  label: 'Mon bloc perso'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,9 @@
+uuid: 1d0a720f-d662-42a4-a5db-9a74dcab4765
+langcode: fr
+status: true
+dependencies: {  }
+name: 'Issue tag'
+vid: issue_tag
+description: ''
+hierarchy: 0
+weight: 0
